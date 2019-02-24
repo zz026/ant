@@ -1,0 +1,40 @@
+
+.title {
+  padding: 0 20px;
+  line-height: 60px;
+  text-align: right;
+  border-bottom: 1px solid #ccc;
+  a {
+    margin-left: 30px;
+    color: red;
+  }
+}
+
+.bread {
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  position: relative;
+  h3 {
+    margin-bottom: 0;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -9px;
+    transform: translateX(-50%);
+    border-top: 9px solid #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+  }
+}
+
+.weather {
+  line-height: 40px;
+  text-align: right;
+  padding: 0 20px;
+  .detail {
+    margin-left: 20px;
+  }
+}

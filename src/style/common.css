@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+.container .nav-left {
+  width: 15%;
+  min-width: 200px;
+  height: calc(100vh);
+  background-color: #001529;
+}
+.container .main {
+  flex: 1;
+  height: calc(100vh);
+  background-color: #f1f3f5;
+  overflow-y: auto;
+}
+.container .main .content {
+  margin: 20px;
+}
